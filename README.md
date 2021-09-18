@@ -3,24 +3,47 @@
 # Elaborado por Ximena Alvarez y John Avila.
 
 ## Parte 1
-# Instalacion Hadoop
 
+Instalamos la el software VirtualBox
 ![alt text](1.png?raw=true "Title")
+
+Lo primero a realizar es  validar la versión del java
+
 ![alt text](2.png?raw=true "Title")
+
+se procede a realizar la generación del SSH, se le genera la llave principal y se le brinda permisos a al usuario creado, luego con el comando SSH localhost validamos que este arriba y este ok el usuario creado.
+
 ![alt text](3.png?raw=true "Title")
+
+Luego se procede a realizar la instalación del paquete de Hadoop, una vez descargado y descomprimido validamos con el comando ls que se encuentre tanto el .gz y la carpeta hadoop.
+
 ![alt text](4.png?raw=true "Title")
+
+Para los siguientes pasos a realizar debemos corroborar la versión del javac para ello se ejecuta con el comando which javac.
+
 ![alt text](5.png?raw=true "Title")
 
-![alt text](6.png?raw=true "Title")
+Usamos el comando para abrir el hdf-site.xml para editarlo, también procedemos a editar los archivos: mapred-site.xml, yarn-site.xml
 
+![alt text](6.png?raw=true "Title")
 ![alt text](7.png?raw=true "Title")
+
+Verificamos con el comando NameNode, los servicios de iniciación del Hadoop.
+
+
 ![alt text](8.png?raw=true "Title")
 ![alt text](9.png?raw=true "Title")
+
+Para navegar en la versión que descargarnos de Hadoop es necesario ejecutar el comando ./start-dfs.sh, ./start-yarn.sh
+
 ![alt text](10.png?raw=true "Title")
 ![alt text](11.png?raw=true "Title")
 ![alt text](12.png?raw=true "Title")
+
 ![alt text](13.png?raw=true "Title")
 ![alt text](14.png?raw=true "Title")
+
+Luego verificamos en los localhost la instalación de hadoop por el navegador:
 
 http://localhost:9870
 
@@ -35,7 +58,6 @@ http://localhost:8088
 ![alt text](17.png?raw=true "Title")
 
 # Parte 2
-## MapReduce 
 
 ![alt text](18.png?raw=true "Title")
 
@@ -95,7 +117,6 @@ En este caso cómo resultado nos conto todas las palabras, en este caso no se fi
 ![alt text](37.png?raw=true "Title")
 
 # Parte 3
-## Hadoop/MapReduce
 
 Se comprueba que quedó instalado el cluster de Spark con su maestro y su esclavo
 
@@ -118,7 +139,6 @@ Se abre la carpeta “result” en la cual encontramos un archivo llamado “par
 ![alt text](42.png?raw=true "Title")
 
 # Parte 4
-## Hadoop/MapReduce
 
 Se clona el repositorio 
 
