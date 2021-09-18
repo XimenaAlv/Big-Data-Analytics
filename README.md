@@ -5,6 +5,7 @@
 ## Parte 1
 
 Instalamos el software VirtualBox
+
 ![alt text](1.png?raw=true "Title")
 
 Lo primero a realizar es validar la versión del java con el siguiente comando:
@@ -21,22 +22,20 @@ Luego se procede a realizar la instalación del paquete de Hadoop, una vez desca
 
 Para los siguientes pasos a realizar debemos corroborar la versión del javac para ello se ejecuta con el comando which javac.
 
-![alt text](5.png?raw=true "Title")
+![alt text](6.png?raw=true "Title")
 
 Usamos el comando para abrir el hdf-site.xml para editarlo, también procedemos a editar los archivos: mapred-site.xml, yarn-site.xml
 
-![alt text](6.png?raw=true "Title")
 ![alt text](7.png?raw=true "Title")
+![alt text](8.png?raw=true "Title")
 
 Verificamos con el comando NameNode, los servicios de iniciación del Hadoop.
 
-
-![alt text](8.png?raw=true "Title")
 ![alt text](9.png?raw=true "Title")
+![alt text](10.png?raw=true "Title")
 
 Para navegar en la versión que descargarnos de Hadoop es necesario ejecutar el comando ./start-dfs.sh, ./start-yarn.sh
 
-![alt text](10.png?raw=true "Title")
 ![alt text](11.png?raw=true "Title")
 ![alt text](12.png?raw=true "Title")
 
