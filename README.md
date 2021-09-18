@@ -4,10 +4,10 @@
 
 ## Parte 1
 
-Instalamos la el software VirtualBox
+Instalamos el software VirtualBox
 ![alt text](1.png?raw=true "Title")
 
-Lo primero a realizar es  validar la versión del java
+Lo primero a realizar es validar la versión del java con el siguiente comando:
 
 ![alt text](2.png?raw=true "Title")
 
